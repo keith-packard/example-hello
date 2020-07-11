@@ -5,8 +5,8 @@ SOURCE ?= .
 
 METAL_FEATURES = stdio,exit
 
+ESDK_SETTINGS_GENERATOR ?= $(SOURCE)/../../scripts/esdk-settings-generator
 FREEDOM_METAL ?= $(SOURCE)/../../freedom-metal-next
-BSP ?= $(SOURCE)/../../bsp/qemu-sifive-e31
 DEVICETREE ?= $(FREEDOM_METAL)/test/qemu_sifive_e31.dts
 
 RISCV_LIBC ?= picolibc

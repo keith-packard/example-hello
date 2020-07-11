@@ -1,3 +1,7 @@
+*.elf
+*.map
+metal
+*.lds
 *.o
 /hello
 /hello.hex
